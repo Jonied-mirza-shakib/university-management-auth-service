@@ -40,21 +40,28 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
   },
   {
     timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
   }
 );
 
-academicSemesterSchema.pre('save',async function(next){
-  const isExist=await AcademicSemester.findOne({title: this.title,year: this.year})
+academicSemesterSchema.pre('save', async function (next) {
+  const isExist = await AcademicSemester.findOne({
+    title: this.title,
+    year: this.year,
+  });
 
-  if(isExist){
-    throw new ApiError(httpStatus.CONFLICT,'academic semester is already exist !')
+  if (isExist) {
+    throw new ApiError(
+      httpStatus.CONFLICT,
+      'academic semester is already exist !'
+    );
   }
-  next()
-})
+  next();
+});
 
 export const AcademicSemester = model<IAcademicSemester, AcademicSemesterModel>(
   'AcademicSemester',
   academicSemesterSchema
 );
-
-

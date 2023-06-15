@@ -1,11 +1,11 @@
 import { User } from './user.model';
 import { IUser } from './user.interface';
 import config from '../../../config/index';
-import { generateUserId } from './user.utils';
 import ApiError from '../../../errors/ApiError';
+import { generateFacultyId } from './user.utils';
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
-  const id = await generateUserId();
+  const id = await generateFacultyId();
   user.id = id;
 
   if (!user.password) {

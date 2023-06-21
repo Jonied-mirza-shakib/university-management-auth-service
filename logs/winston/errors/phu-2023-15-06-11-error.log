@@ -1,0 +1,74 @@
+Thu Jun 15 2023 11:9:14 } [PH] error: globalErrorHandler
+Thu Jun 15 2023 11:9:43 } [PH] error: globalErrorHandler
+Thu Jun 15 2023 11:13:54 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body",
+      "student"
+    ],
+    "message": "Required"
+  }
+]
+Thu Jun 15 2023 11:15:46 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body",
+      "student"
+    ],
+    "message": "Required"
+  }
+]
+Thu Jun 15 2023 11:21:49 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body",
+      "student"
+    ],
+    "message": "Required"
+  }
+]
+Thu Jun 15 2023 11:27:20 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body",
+      "student"
+    ],
+    "message": "Required"
+  }
+]
+Thu Jun 15 2023 11:28:23 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body",
+      "student"
+    ],
+    "message": "Required"
+  }
+]
+Thu Jun 15 2023 11:28:36 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body",
+      "student"
+    ],
+    "message": "Required"
+  }
+]
